@@ -1,0 +1,4 @@
+packages:
+  - 'rest-api'
+  - 'client-react'
+  - 'shared'
