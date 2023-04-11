@@ -18,6 +18,19 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": false,
-    "paths": {}
+    "paths": {
+      "@app/prisma": [
+        "libs/prisma/src"
+      ],
+      "@app/prisma/*": [
+        "libs/prisma/src/*"
+      ],
+      "@app/pm-db": [
+        "libs/pm-db/src"
+      ],
+      "@app/pm-db/*": [
+        "libs/pm-db/src/*"
+      ]
+    }
   }
 }

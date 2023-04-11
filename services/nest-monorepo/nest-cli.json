@@ -27,6 +27,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/socket/tsconfig.app.json"
       }
+    },
+    "prisma": {
+      "type": "library",
+      "root": "libs/prisma",
+      "entryFile": "index",
+      "sourceRoot": "libs/prisma/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/prisma/tsconfig.lib.json"
+      }
+    },
+    "pm-db": {
+      "type": "library",
+      "root": "libs/pm-db",
+      "entryFile": "index",
+      "sourceRoot": "libs/pm-db/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/pm-db/tsconfig.lib.json"
+      }
     }
   }
 }
