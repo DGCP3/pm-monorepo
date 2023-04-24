@@ -30,6 +30,12 @@
       ],
       "@app/pm-db/*": [
         "libs/pm-db/src/*"
+      ],
+      "@app/bcrypt": [
+        "libs/bcrypt/src"
+      ],
+      "@app/bcrypt/*": [
+        "libs/bcrypt/src/*"
       ]
     }
   }
