@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
-    "@nestjs/core": "^9.0.0",
+    "@nestjs/core": "^10.4.2",
     "@nestjs/passport": "^9.0.3",
     "@nestjs/platform-express": "^10.4.2",
     "@prisma/client": "^4.12.0",
